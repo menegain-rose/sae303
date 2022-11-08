@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    h1 {
+        @apply font-raleway font-normal text-2xl
+    }
+
+    h2 {
+        @apply font-raleway font-normal text-2xl
+    }
+
+    h3 {
+        @apply font-raleway font-normal text-lg pt-3
+    }
+
+    h4 {
+        @apply font-raleway font-light text-sm
+    }
+
+    h5 {
+        @apply font-raleway text-lg
+    }
+
+    p {
+        @apply font-raleway text-base
+    }
+
+    span {
+        @apply font-raleway text-lg
+    }
+
+    legend {
+        @apply font-raleway text-lg
+    }
+}
